@@ -1,0 +1,26 @@
+.calculadora {
+  height: 320px;
+  width: 235px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+  /* temporario */
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}
+
+*{
+  font-family: 'RobotoMono', monospace;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background:linear-gradient(to right, rgb(127, 0, 255), rgb(225, 0, 255));
+}
+
